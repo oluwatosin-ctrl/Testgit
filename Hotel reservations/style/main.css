@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ 
+ body{
+     font-family:'Playfair Display', serif;
+     font-weight: 100;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 60px;
+     background-image: url(/images/red_abbey.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+ h1{
+     font-size: 42px;
+     padding-top: 60px;
+ }
+ h2{
+     font-size: 27px;
+    margin-top: 40px;
+ } 
+ h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+    text-transform: uppercase;
+ }
+ p{
+     font-size: 18px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+ }
+ a:link{
+    color: #a86d93;
+ }
+ a:visited{
+    color: green;
+}
+ a:hover{
+     color: red;
+ }
+ a:active{
+    color: red;
+ }
+ figure{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-left: 0;
+ }
+ li{
+     margin-bottom: 1px;
+ }
+ caption{
+     font-size: 27px;
+     margin: 20px;
+     text-align: left;
+     text-transform: uppercase;
+
+ }
+ th{
+      
+     text-align: left;
+     margin-right: 10px;
+ }
+ td{
+     padding-right: 30px;
+     padding-top: 10px;
+
+ }
+ input{
+     margin-left: 15px;
+     padding: 10px;
+     border: none;
+     background-color: rgba(66, 65, 65, 0.247);
+ }
+ textarea{
+     border: none;
+     background-color: rgba(66, 65, 65, 0.247);
+
+ }
+ fieldset{
+     width: 500px;
+ }
+ button{
+     padding: 10px;
+     border: none;
+     font-family:'Playfair Display', serif;
+     color:whitesmoke;
+     background-color: #a86d93;
+ }
+ button:hover{
+     background-color: #ff0000;
+ }
+ main{
+     background-color: rgba(0, 0, 0, 0.5);
+     align-items: center;
+     margin: 0 auto;
+     
+ }
